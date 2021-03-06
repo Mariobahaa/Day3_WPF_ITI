@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="300">
     <StackPanel Width=" 300" Height="200"  Orientation="Horizontal">
-        <Button Width="100" Height="200"  Content="Mickey"></Button>
+        <Button Width="100" Height="200"  Content="Mickey" Click="Button_Click_1"></Button>
         <Button Width="100" Height="200"   Content="Ball" Click="Button_Click"></Button>
         <Button Width="100" Height="200"   Content="Editor"></Button>
     </StackPanel>
