@@ -26,5 +26,19 @@ namespace Day3_WPF_ITI
         {
             this.Close();
         }
+
+        bool isPressed = false;
+
+        private void Button_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //MessageBox.Show("hello");
+            if (e.ChangedButton == MouseButton.Left)
+                this.DragMove();
+        }
+
+        private void Button_MouseMove(object sender, MouseEventArgs e)
+        {
+            //if (isPressed) this.DragMove();
+        }
     }
 }
