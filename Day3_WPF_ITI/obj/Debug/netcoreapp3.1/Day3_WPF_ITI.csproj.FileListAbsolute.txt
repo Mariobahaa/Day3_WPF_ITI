@@ -21,3 +21,5 @@ E:\My Programs\ITIC#\Day3_WPF_ITI\Day3_WPF_ITI\obj\Debug\netcoreapp3.1\Ball.g.cs
 E:\My Programs\ITIC#\Day3_WPF_ITI\Day3_WPF_ITI\obj\Debug\netcoreapp3.1\Ball.baml
 E:\My Programs\ITIC#\Day3_WPF_ITI\Day3_WPF_ITI\obj\Debug\netcoreapp3.1\Mickey.g.cs
 E:\My Programs\ITIC#\Day3_WPF_ITI\Day3_WPF_ITI\obj\Debug\netcoreapp3.1\Mickey.baml
+E:\My Programs\ITIC#\Day3_WPF_ITI\Day3_WPF_ITI\obj\Debug\netcoreapp3.1\Editor.g.cs
+E:\My Programs\ITIC#\Day3_WPF_ITI\Day3_WPF_ITI\obj\Debug\netcoreapp3.1\Editor.baml

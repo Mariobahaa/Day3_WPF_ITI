@@ -36,5 +36,11 @@ namespace Day3_WPF_ITI
             Mickey mickey = new Mickey();
             mickey.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Editor editor = new Editor();
+            editor.Show();
+        }
     }
 }
