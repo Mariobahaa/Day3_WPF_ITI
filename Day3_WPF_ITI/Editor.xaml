@@ -13,7 +13,7 @@
 
         </Grid.RowDefinitions>
         <WrapPanel Grid.Row="0">
-            <ComboBox Height="23" Name="size" Width="100" Margin="20">
+            <ComboBox Height="40" Name="size" Width="85" Margin="10">
                 <ComboBoxItem Content="12"></ComboBoxItem>
                 <ComboBoxItem Content="14"></ComboBoxItem>
                 <ComboBoxItem Content="20"></ComboBoxItem>
@@ -21,11 +21,32 @@
                 <ComboBoxItem Content="48"></ComboBoxItem>
              
             </ComboBox>
+            <ComboBox Height="40" Name="color" Width="85" Margin="10">
+                <ComboBoxItem Content= "Red"></ComboBoxItem>
+                <ComboBoxItem Content="Blue"></ComboBoxItem>
+                <ComboBoxItem Content="Yellow"></ComboBoxItem>
+                <ComboBoxItem Content="Green"></ComboBoxItem>
+                <ComboBoxItem Content="Black"></ComboBoxItem>
+
+            </ComboBox>
+            <ComboBox Height="40" Name="alignment" Width="85" Margin="10">
+                <ComboBoxItem Content="Center" HorizontalAlignment="Center"></ComboBoxItem>
+                <ComboBoxItem Content="Left"  HorizontalAlignment="Left"></ComboBoxItem>
+                <ComboBoxItem Content="Right"  HorizontalAlignment="Right"></ComboBoxItem>
+                <ComboBoxItem Content="Justify" HorizontalAlignment="Center"></ComboBoxItem>
+
+
+            </ComboBox>
+            
+            <Label Content="Enable" Margin="0,20,0,0"></Label>
+            <CheckBox Margin="0,25,0,0" Name="enabled"></CheckBox>
         </WrapPanel>
         <TextBox Grid.Row="1" 
          FontSize="{Binding ElementName=size, Path=SelectedItem.Content}"
-                 >
-            
+         Foreground="{Binding ElementName=color, Path=SelectedItem.Content}" 
+         TextAlignment="{Binding ElementName=alignment,Path=SelectedItem.Content}"
+         IsEnabled="{Binding ElementName=enabled, Path=IsChecked}"
+         BorderBrush="DeepSkyBlue" BorderThickness="10" Padding="5">
         </TextBox>
     </Grid>
 </Window>
